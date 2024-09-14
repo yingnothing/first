@@ -1,0 +1,54 @@
+         273735 function calls in 0.157 seconds
+
+   Ordered by: cumulative time
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        2    0.001    0.001    0.153    0.076 D:\software_engineering\Paper_plagiarism_check\Text_preprocessing.py:6(preprocess)
+    11120    0.004    0.000    0.150    0.000 C:\Users\·½¶û²©\AppData\Local\Programs\Python\Python37\lib\site-packages\jieba\__init__.py:289(cut)
+    10306    0.009    0.000    0.144    0.000 C:\Users\·½¶û²©\AppData\Local\Programs\Python\Python37\lib\site-packages\jieba\__init__.py:249(__cut_DAG)
+     6217    0.006    0.000    0.070    0.000 C:\Users\·½¶û²©\AppData\Local\Programs\Python\Python37\lib\site-packages\jieba\finalseg\__init__.py:85(cut)
+     6217    0.005    0.000    0.059    0.000 C:\Users\·½¶û²©\AppData\Local\Programs\Python\Python37\lib\site-packages\jieba\finalseg\__init__.py:59(__cut)
+     1525    0.026    0.000    0.055    0.000 C:\Users\·½¶û²©\AppData\Local\Programs\Python\Python37\lib\site-packages\jieba\finalseg\__init__.py:37(viterbi)
+      344    0.008    0.000    0.039    0.000 C:\Users\·½¶û²©\AppData\Local\Programs\Python\Python37\lib\site-packages\jieba\__init__.py:172(calc)
+    32205    0.013    0.000    0.038    0.000 {built-in method builtins.max}
+      344    0.025    0.000    0.026    0.000 C:\Users\·½¶û²©\AppData\Local\Programs\Python\Python37\lib\site-packages\jieba\__init__.py:180(get_DAG)
+    35965    0.016    0.000    0.023    0.000 C:\Users\·½¶û²©\AppData\Local\Programs\Python\Python37\lib\site-packages\jieba\__init__.py:177(<genexpr>)
+    15368    0.012    0.000    0.015    0.000 C:\Users\·½¶û²©\AppData\Local\Programs\Python\Python37\lib\site-packages\jieba\finalseg\__init__.py:49(<listcomp>)
+    76197    0.013    0.000    0.013    0.000 {method 'get' of 'dict' objects}
+    20997    0.003    0.000    0.003    0.000 {built-in method math.log}
+     7883    0.003    0.000    0.003    0.000 {method 'match' of 're.Pattern' objects}
+     4919    0.003    0.000    0.003    0.000 {method 'split' of 're.Pattern' objects}
+        1    0.000    0.000    0.002    0.002 D:\software_engineering\Paper_plagiarism_check\calculate_similarity.py:4(calculate_cosine_similarity)
+    24495    0.002    0.000    0.002    0.000 {method 'append' of 'list' objects}
+     4575    0.001    0.000    0.002    0.000 C:\Users\·½¶û²©\AppData\Local\Programs\Python\Python37\lib\site-packages\jieba\finalseg\__init__.py:54(<genexpr>)
+        2    0.000    0.000    0.001    0.001 D:\software_engineering\Paper_plagiarism_check\input.py:4(read_file)
+        2    0.000    0.000    0.001    0.001 C:\Users\·½¶û²©\AppData\Local\Programs\Python\Python37\lib\re.py:185(sub)
+        2    0.001    0.001    0.001    0.001 {method 'sub' of 're.Pattern' objects}
+        2    0.000    0.000    0.001    0.001 D:\software_engineering\Paper_plagiarism_check\construct_vector.py:5(get_word_frequency_vector)
+        2    0.000    0.000    0.001    0.000 C:\Users\·½¶û²©\AppData\Local\Programs\Python\Python37\lib\collections\__init__.py:550(__init__)
+        2    0.000    0.000    0.001    0.000 C:\Users\·½¶û²©\AppData\Local\Programs\Python\Python37\lib\collections\__init__.py:619(update)
+     9813    0.001    0.000    0.001    0.000 {built-in method builtins.len}
+        2    0.001    0.000    0.001    0.000 {built-in method _collections._count_elements}
+        3    0.000    0.000    0.001    0.000 {built-in method builtins.sum}
+     1527    0.001    0.000    0.001    0.000 C:\Users\·½¶û²©\AppData\Local\Programs\Python\Python37\lib\site-packages\jieba\_compat.py:76(strdecode)
+     1796    0.000    0.000    0.001    0.000 D:\software_engineering\Paper_plagiarism_check\calculate_similarity.py:6(<genexpr>)
+        1    0.001    0.001    0.001    0.001 D:\software_engineering\Paper_plagiarism_check\calculate_similarity.py:7(<listcomp>)
+        2    0.001    0.000    0.001    0.000 {built-in method io.open}
+        1    0.001    0.001    0.001    0.001 D:\software_engineering\Paper_plagiarism_check\calculate_similarity.py:8(<listcomp>)
+        2    0.000    0.000    0.000    0.000 {method 'read' of '_io.TextIOWrapper' objects}
+     1531    0.000    0.000    0.000    0.000 {built-in method builtins.isinstance}
+        2    0.000    0.000    0.000    0.000 C:\Users\·½¶û²©\AppData\Local\Programs\Python\Python37\lib\codecs.py:319(decode)
+        2    0.000    0.000    0.000    0.000 {built-in method _codecs.utf_8_decode}
+      344    0.000    0.000    0.000    0.000 C:\Users\·½¶û²©\AppData\Local\Programs\Python\Python37\lib\site-packages\jieba\__init__.py:168(check_initialized)
+        2    0.000    0.000    0.000    0.000 C:\Users\·½¶û²©\AppData\Local\Programs\Python\Python37\lib\re.py:271(_compile)
+        1    0.000    0.000    0.000    0.000 D:\software_engineering\Paper_plagiarism_check\calculate_repetition_rate.py:2(calculate_repetition_rate)
+        2    0.000    0.000    0.000    0.000 C:\Users\·½¶û²©\AppData\Local\Programs\Python\Python37\lib\abc.py:137(__instancecheck__)
+        1    0.000    0.000    0.000    0.000 {built-in method builtins.round}
+        2    0.000    0.000    0.000    0.000 C:\Users\·½¶û²©\AppData\Local\Programs\Python\Python37\lib\codecs.py:309(__init__)
+        2    0.000    0.000    0.000    0.000 {built-in method _abc._abc_instancecheck}
+        2    0.000    0.000    0.000    0.000 {built-in method math.sqrt}
+        2    0.000    0.000    0.000    0.000 C:\Users\·½¶û²©\AppData\Local\Programs\Python\Python37\lib\codecs.py:260(__init__)
+        2    0.000    0.000    0.000    0.000 {method 'values' of 'dict' objects}
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+
+

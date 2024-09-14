@@ -5,6 +5,8 @@ from input import read_file
 from construct_vector import get_word_frequency_vector
 from calculate_similarity import calculate_cosine_similarity
 from calculate_repetition_rate import calculate_repetition_rate
+import cProfile
+import pstats
 
 
 def write_output(file_path, result):
@@ -35,6 +37,9 @@ if __name__ == "__main__":
     orig_file = sys.argv[1]
     plag_file = sys.argv[2]
     output_file = sys.argv[3]
+    # 开启性能分析
+    pr = cProfile.Profile()
+    pr.enable()
     # 检查文件路径是否存在
     if not os.path.exists(orig_file):
         print(f"错误: 原始文件路径 '{orig_file}' 不存在.")
@@ -60,7 +65,10 @@ if __name__ == "__main__":
 
     # 计算重复率
     repetition_rate = calculate_repetition_rate(cosine_similarity)
-
+    # 结束性能分析
+    pr.disable()
+    stats = pstats.Stats(pr)
+    stats.strip_dirs().sort_stats('cumulative').print_stats()  # 打印性能分析结果
     # 输出结果，将重复率写入到指定的路径中
     write_output(output_file, repetition_rate)
-    print(repetition_rate)
+    print(f"重复率：{repetition_rate}")
